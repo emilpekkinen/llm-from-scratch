@@ -6,5 +6,8 @@ __pycache__/
 data/
 
 # checkpoints, tokenizer caches and logs produced by training
-out*/
+out*/*
+# ...except the trained model shipped with the repo
+!out_dropout/ckpt.npz
+!out_dropout/tokenizer.json
 *.log
