@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# downloaded dataset (train.py fetches it automatically)
+data/
+
+# checkpoints, tokenizer caches and logs produced by training
+out*/
+*.log
